@@ -17,7 +17,6 @@ const PaginaInicial = ( {regiao, temperatura, placeholder} ) => {
                 <h2 className="text-[40px] text-gray-100">{regiao}</h2>
                 <h2 className="text-[150px] text-gray-100">{temperatura}</h2>
                 <input className="py-2 px-10 bg-white rounded-2xl" 
-                    type="search"
                     placeholder={placeholder}/>
             </div>
         </section>
