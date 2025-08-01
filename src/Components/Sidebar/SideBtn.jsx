@@ -12,7 +12,7 @@ export default function sideBtn() {
 
   return (
     <div>
-      <button onClick={handleBtn} className="absolute top-8 left-5 z-2">
+      <button onClick={handleBtn} className="fixed top-4 left-4 z-3">
         {showText ? <WiDirectionLeft size={82} /> : <WiAlien size={82} />}
       </button>
 
