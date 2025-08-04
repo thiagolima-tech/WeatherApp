@@ -2,7 +2,7 @@
 const BtnExplorarRegiao = ({nomeRegiao}) => {
     return (
         <>
-            <button className='bg-white px-[25px] py-[5px] rounded-3xl m-5' > Explorar {nomeRegiao} </button >
+            <button className='bg-white px-[35px] py-[6px] rounded-3xl m-5 text-[12px] font-Metrophobic font-medium'> Explorar {nomeRegiao} </button >
         </>
     )
 }

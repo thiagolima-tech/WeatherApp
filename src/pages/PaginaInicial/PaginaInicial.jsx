@@ -14,12 +14,11 @@ const PaginaInicial = ( {regiao, temperatura, placeholder, onClick} ) => {
             </div>
             <div className="flex flex-col items-center cursor-pointer" onClick={onClick}>
                 <WiNightCloudyWindy className="text-center text-[180px] text-gray-800 mt-40" />
-                <h2 className="text-[40px] text-gray-100">{regiao}</h2>
-                <h2 className="text-[150px] text-gray-100">{temperatura}</h2>
+                <h2 className="text-[40px] text-gray-100 font-Metrophobic">{regiao}</h2>
+                <p className="text-[150px] text-gray-100 font-Metrophobic relative top-[-25px]">{temperatura}</p>
             </div>
-            <div className="flex text-center justify-center">
-                <input className="py-2 px-10 bg-white rounded-2xl" 
-                    placeholder={placeholder}/>
+            <div className="flex justify-center">
+                <input className="py-2 pl-4 pr-6 bg-white rounded-2xl" placeholder={placeholder} />
             </div>
         </section>
     )

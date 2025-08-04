@@ -3,6 +3,7 @@ import Sidebar from "./Components/Sidebar/SideBtn";
 import PaginaNordeste from "./pages/PaginaNordeste/PaginaNordeste";
 import { useNavigate } from "react-router-dom";
 import PaginaSudeste from "./pages/PaginaSudeste/PaginaSudeste";
+import PaginaCentroOeste from "./pages/PaginaCentroOeste/PaginaCentroOeste";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       />
       <PaginaNordeste />
       <PaginaSudeste />
+      <PaginaCentroOeste />
     </>
   )
 }
