@@ -10,7 +10,7 @@ export default function LateralBar() {
             <a href="#Nordeste">Nordeste</a>
           </li>
           <li>
-            <a href="Sudeste">Sudeste</a>
+            <a href="">Sudeste</a>
           </li>
           <li>
             <a href=""></a>
